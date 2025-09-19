@@ -1,5 +1,11 @@
 
-let firstName = 'Edwin';
-let lastName = 'Ayala';
+const firstName: string = 'Edwin';
+const lastName: string = 'Ayala';
 
-console.log(`${ firstName } ${ lastName }`)
+let diceNumber: number = 5;
+
+console.log(`${ firstName } ${ lastName }`);
+
+const containsLetterA: boolean = lastName.includes('A');
+
+console.log({ containsLetterA, diceNumber });
