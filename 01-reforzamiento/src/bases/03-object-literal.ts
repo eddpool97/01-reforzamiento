@@ -3,11 +3,14 @@ interface Person{
     firstName: string;
     lastName: string;
     age: number;
-    address?: {
-        postalCode: string, 
-        city: string
-    }
+    address?: Address
 }
+
+interface Address{
+    postalCode: string, 
+    city: string
+}
+
 
 const ironman: Person = {
     firstName: 'Tony',
