@@ -33,8 +33,10 @@ function getUser( user: User ): User{
 
 console.log( getUser( user ) );
 
-const getUser2 = ( user: User ):User=>{
-    return user;
-};
+const getUser2 = ( user: User ):User=> user;
 
 console.log( getUser2( user ) );
+
+const myNumbers: number[] = [1,2,3,4,5];
+
+myNumbers.forEach( ( value: number )=>  console.log({ value }) );
