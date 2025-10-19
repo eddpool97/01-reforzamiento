@@ -1,6 +1,6 @@
 import './style.css';
 
-import './bases/10-fecth-api';
+import './bases/11-async-await';
 /* import { getHeroByOwner } from './bases/08-imp-exp';
 import { Owner } from './bases/data/heores.data'; */
 
